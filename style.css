@@ -1,0 +1,124 @@
+body {
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image:url("https://cdn.wallpapersafari.com/13/74/xtD5sX.jpg");
+    background-size:100vw 100vh;
+    font-family:sans-serif;
+    background-position:center;
+    background-color:#000;
+}
+.p_card{
+    height:440px;
+    width:300px;
+    background-color:rgba(25,25,25,0.1);
+    border-radius:8px;
+    backdrop-filter:blur(5px);
+}
+.top_img{
+    border-radius:8px 8px 0 0;
+}
+.img{
+width:100%;
+text-align:center;
+height:150px;
+background-image:url("https://i.gadgets360cdn.com/large/Best_Touchscreen_Laptops_1523443051670.png");
+background-size:0% 0%;
+margin-top:-105px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.img div{
+    height:100px;
+    width:100px;
+    border-radius:100%;
+    border-left:solid 10px #fff;
+    border-top:solid 10px transparent;
+    border-right:solid 10px #fff;
+    border-bottom:solid 10px transparent;
+    animation:rotate 3s alternate infinite;
+}
+.img img{
+    height:100px;
+    width:100px;
+    border-radius:100%;
+    animation:rotate2 3s alternate infinite;
+}
+@keyframes rotate{
+    from{
+        transform:rotateZ(0deg);
+    }
+    to{
+        transform:rotateZ(180deg);
+    }
+}
+@keyframes rotate2{
+    from{
+        transform:rotateZ(360deg);
+    }
+    to{
+        transform:rotateZ(180deg);
+    }
+}
+.name{
+    width:100%;
+    text-align:center;
+    padding-bottom:20px;
+    font-size:24px;
+    font-weight:bold;
+    color:#fff;
+    margin-top:-15px;
+}
+.txt{
+    width:100%;
+    text-align:center;
+    color:#fff;
+    font-weight:350;
+}
+.txt p{
+    width:80%;
+    margin-left:10%;
+}
+
+.followers{
+   display:inline-block; 
+    width:130px;
+    text-align:center;
+    margin-left:10px;
+    border-radius:4px;
+    color:#fff;
+    font-weight:bold;
+}
+.projects{
+    margin-left:20px;
+    display:inline-block;
+    display:inline-block; 
+    width:130px;
+    text-align:center;
+    border-radius:4px;
+    color:#fff;
+    font-weight:bold;
+}
+.fol_me{
+    height:60px;
+    width:100%;
+    background-color:#4c0066;
+    margin-top:28px;
+    border-radius:0 0 8px 8px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-weight:bold;
+}
+a{
+    color:#fff;
+    font-size:large;
+    text-decoration:none;
+    -webkit-tap-highlight-color:transparent;
+}
